@@ -121,7 +121,7 @@
                                         <i class="fal fa-envelope"></i>
                                     </div>
                                     <div class="offcanvas__contact-text">
-                                        <a href="tel:+013-003-003-9993"><span class="mailto:info@enofik.com">Bentobyn.uae@gmail.com</span></a>
+                                        <a href="tel:+013-003-003-9993"><span class="mailto:Bentobyn.uae@gmail.com">Bentobyn.uae@gmail.com</span></a>
                                     </div>
                                 </li>
                                 <li class="d-flex align-items-center">
@@ -216,10 +216,10 @@
                                                         <li><a href="shop-brownies.html">Brownies</a></li>
                                                         <li><a href="shop-daily.html">Daily Tea Cakes</a></li>
                                                         <li><a href="shop-panna.html">Panna Cotta</a></li>
-                                                        <li><a href="shop-no-bake.html">No Bake Cakes</a></li>
-                                                        <li><a href="shop-trifle.html">Trifle</a></li>
-                                                        <li><a href="shop-cookies.html">Cookies</a></li>
                                                         <li><a href="shop-tiramisu.html">Tiramisu</a></li>
+                                                        <li><a href="shop-no-bake.html">No Bake Cakes</a></li>
+                                                        <!-- <li><a href="shop-trifle.html">Trifle</a></li>
+                                                        <li><a href="shop-cookies.html">Cookies</a></li>-->
                                                     </ul>
                                                 </li>
                                                 
@@ -263,81 +263,232 @@
         <div class="breadcrumb-wrapper bg-cover" style="background-image: url('assets/img/banner/breadcrumb.jpg');">
             <div class="container">
                 <div class="page-heading center">
-                    <h1>Premium Cakes</h1>
+                    <h1 style="text-shadow:  -3px 4px 6px rgba(0, 0, 0, 0.89) ;">Strawberry Cookies</h1>
                     <ul class="breadcrumb-items">
                         <li>
                             <a href="index.html">
-                            Home
+                            Home Page
                             </a>
                         </li>
                         <li>
                             <i class="far fa-chevron-right"></i>
                         </li>
                         <li>
-                            Premium
+                            Strawberry Cookies
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
 
-        <!-- Food Catagory Section Start -->
-        <section class="food-category-section fix section-padding">
+        <!-- Product Details Section Start -->
+        <section class="product-details-section section-padding">
             <div class="container">
-                <div class="woocommerce-notices-wrapper">
-                    <div class="product-showing">
-                        <h5><a href="shop-premium.html"><span><img src="assets/img/filter.png" alt="img"></span> Filtering</a></h5>
-                        <h5>Showing <span>1–12</span> of 27 results</h5>
-                    </div>
-                    <div class="form-clt">
-                        <h6>Sort by: <a href="shop-premium.html"><i class="fal fa-sort-alt"></i></a></h6>
-                        <!-- <div class="nice-select" tabindex="0">
-                            <span class="current">
-                            Price
-                            </span>
-                            <ul class="list">
-                                <li data-value="1" class="option selected">
-                                    Price
-                                </li>
-                                <li data-value="1" class="option">
-                                    Price
-                                </li>
-                                <li data-value="1" class="option">
-                                    Price
-                                </li>
-                                <li data-value="1" class="option">
-                                    Price
-                                </li>
-                            </ul>
-                        </div> -->
-                        <div class="icon">
-                            <a href="#"><i class="fas fa-th"></i></a>
+                <div class="product-details-wrapper style-2">
+                    <div class="row g-4">
+                        <div class="col-xl-4 col-lg-6">
+                            <div class="product-image-items">
+                                <div class="product-image">
+                                    <img src="assets/img/shop-food/strawberry-ck.png" alt="img" class="w-100">
+                                </div>
+                            </div>
                         </div>
-                        <div class="icon-2">
-                            <a href="#"><i class="fas fa-list"></i></a>
+                        <div class="col-xl-5 col-lg-6">
+                            <div class="product-details-content">
+                                <div class="star pb-3">
+                                    <span>-5%</span>
+                                    <a href="#"> <i class="fas fa-star"></i></a>
+                                    <a href="#"><i class="fas fa-star"></i></a>
+                                    <a href="#"> <i class="fas fa-star"></i></a>
+                                    <a href="#"><i class="fas fa-star"></i></a>
+                                    <a href="#" class="color-bg"> <i class="fas fa-star"></i></a>
+                                    <a href="#" class="text-color">( 8 Reviews )</a>
+                                </div>
+                                <h3 class="pb-3">Strawberry Cookies</h3>
+                                <div class="price-list d-flex align-items-center mb-4">
+                                    <span>[Price : Depends on variety]</span>
+                                </div>
+                                <div class="social-icon d-flex align-items-center">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-vimeo-v"></i></a>
+                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4">
+                            <div class="product-form-wrapper">
+                                <div class="delivery-time">Delivery: <span>Home Delivery</span></div>
+                                <form action="#" id="order-form" method="POST">
+                                    <div class="form-clt">
+                                        <label class="select-crust">Select Add-on</label>
+                                        <div class="nice-select" id="crust-select">
+                                            <span class="current">Choose an option</span>
+                                            <ul class="list">
+                                                <li data-value="Ferroro rocher" class="option selected">Ferroro rocher</li>
+                                                <li data-value="Raffaello" class="option">Raffaello</li>
+                                                <li data-value="Biscoff lotus" class="option">Biscoff lotus</li>
+                                                <li data-value="Hand made chocolates" class="option selected">Hand made chocolates</li>
+                                                <li data-value="Pomegranate" class="option">Pomegranate</li>
+                                                <li data-value="Any brand chocolate" class="option">Any brand chocolate</li>
+                                                <li data-value="Dried cranberries" class="option selected">Dried cranberries</li>
+                                                <li data-value="Strawberry" class="option">Strawberry</li>
+                                                <li data-value="Mint Hershey’S" class="option">Mint Hershey’S</li>
+                                                <li data-value="Any flavour toblerone" class="option selected">Any flavour toblerone</li>
+                                                <li data-value="Pink Oreo" class="option">Pink Oreo</li>
+                                                <li data-value="Marshmallow any color/shapes" class="option">Marshmallow any color/shapes</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="form-clt">
+                                        <label class="select-crust">Select Size</label>
+                                        <div class="nice-select" id="size-select">
+                                            <span class="current">Choose an option</span>
+                                            <ul class="list">
+                                                <li data-value="Small - 6 Pcs" class="option selected">Small - 6 Pcs</li>
+                                                <li data-value="Regular - 12 Pcs" class="option">Regular - 12 Pcs </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="form-clt">
+                                        <label class="select-crust">No. of box</label>
+                                        <div class="quantity-basket">
+                                            <p class="qty">
+                                                <button type="button" class="qtyminus">&minus;</button>
+                                                <input type="number" name="qty" id="qty2" min="1" max="10" step="1" value="1">
+                                                <button type="button" class="qtyplus">&plus;</button>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="form-clt">
+                                        <button type="button" class="theme-btn" id="place-order-btn">
+                                            <i class="far fa-shopping-bag"></i>
+                                            <span class="button-text">Place Order</span>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
+                    <div class="single-tab">
+                        <ul class="nav mb-4">
+                            <li class="nav-item">
+                                <a href="#description" data-bs-toggle="tab" class="nav-link active">
+                                Description
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#additional" data-bs-toggle="tab" class="nav-link">
+                                Additional Information
+                                </a>
+                            </li>
+                            <!-- <li class="nav-item">
+                                <a href="#review" data-bs-toggle="tab" class="nav-link">
+                                reviews (4)
+                                </a>
+                            </li> -->
+                        </ul>
+                        <div class="tab-content">
+                            <div id="description" class="tab-pane fade show active">
+                                <div class="description-items">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="description-content">
+                                                <h3>Strawberry Cookies</h3>
+                                                
+                                                <h3 class="mb-0 mt-5">More Details About our Product</h3>
+                                                <div class="description-list-items d-flex">
+                                                    <ul class="description-list">
+                                                        <li>
+                                                            <i class="fal fa-check"></i>
+                                                            <span>Freshly Baked Daily</span>
+                                                        </li>
+                                                        <li>
+                                                            <i class="fal fa-check"></i>
+                                                            <span>Wide Variety of Flavors</span>
+                                                        </li>
+                                                        <li>
+                                                            <i class="fal fa-check"></i>
+                                                            <span>Customized Cakes</span>
+                                                        </li>
+                                                        <li>
+                                                            <i class="fal fa-check"></i>
+                                                            <span>Premium Ingredients</span>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="description-list">
+                                                        <li>
+                                                            <i class="fal fa-check"></i>
+                                                            <span>Handcrafted Decorations</span>
+                                                        </li>
+                                                        <li>
+                                                            <i class="fal fa-check"></i>
+                                                            <span>Health-Conscious Choices</span>
+                                                        </li>
+                                                        <li>
+                                                            <i class="fal fa-check"></i>
+                                                            <span>Affordable Pricing</span>
+                                                        </li>
+                                                        <li>
+                                                            <i class="fal fa-check"></i>
+                                                            <span>Artisanal Touch</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="additional" class="tab-pane fade">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered">
+                                        <tbody>
+                                            <tr>
+                                                <td>Weight</td>
+                                                <td>500g</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Dimensions</td>
+                                                <td>15 × 15 cm (Mutable)</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Food Catagory Section Start -->
+        <section class="food-category-section fix section-padding section-bg">
+            <div class="container">
+                <div class="section-title text-center">
+                    <span class="wow fadeInUp">Yummy, Every bite taste</span>
+                    <h2 class="wow fadeInUp" data-wow-delay=".3s">RELATED PRODUCTS</h2>
                 </div>
                 <div class="row">
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                         <div class="catagory-product-card-2 shadow-style text-center">
                             <div class="icon">
-                                <a href="lemon-creme-p.html"><i class="far fa-heart"></i></a>
+                                <a href="classic-ck.html"><i class="far fa-heart"></i></a>
                             </div>
                             <div class="catagory-product-image">
-                                <img src="assets/img/food/lemonCreme.png" alt="product-img">
+                                <img src="assets/img/food/classic-ck.png" alt="product-img">
                             </div>
                             <div class="catagory-product-content">
                                 <div class="catagory-button">
-                                    <a href="lemon-creme-p.html" class="theme-btn-2"><i class="far fa-shopping-basket"></i>Place Order</a>
+                                    <a href="classic-ck.html" class="theme-btn-2"><i class="far fa-shopping-basket"></i>Place Order</a>
                                 </div>
                                 <div class="info-price d-flex align-items-center justify-content-center">
                                     <p>-5%</p>
                                     <h6>Starting</h6>
-                                    <span>AED 180</span>
+                                    <span>Depends on variety</span>
                                 </div>
                                 <h4>
-                                    <a href="lemon-creme-p.html">lemon crème</a>
+                                    <a href="classic-ck.html">Classic Cookies</a>
                                 </h4>
                                 <div class="star">
                                     <span class="fas fa-star"></span>
@@ -352,22 +503,22 @@
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                         <div class="catagory-product-card-2 shadow-style text-center">
                             <div class="icon">
-                                <a href="very-berry-loaded-p.html"><i class="far fa-heart"></i></a>
+                                <a href="double choco-ck.html"><i class="far fa-heart"></i></a>
                             </div>
                             <div class="catagory-product-image">
-                                <img src="assets/img/food/verybloaded.png" alt="product-img">
+                                <img src="assets/img/food/double choco-ck.png" alt="product-img">
                             </div>
                             <div class="catagory-product-content">
                                 <div class="catagory-button">
-                                    <a href="very-berry-loaded-p.html" class="theme-btn-2"><i class="far fa-shopping-basket"></i>Place Order</a>
+                                    <a href="double choco-ck.html" class="theme-btn-2"><i class="far fa-shopping-basket"></i>Place Order</a>
                                 </div>
                                 <div class="info-price d-flex align-items-center justify-content-center">
                                     <p>-5%</p>
                                     <h6>Starting</h6>
-                                    <span>AED 180</span>
+                                    <span>Depends on variety</span>
                                 </div>
                                 <h4>
-                                    <a href="very-berry-loaded-p.html">Very Berry Loaded</a>
+                                    <a href="double choco-ck.html">Double Chocolate Cookies</a>
                                 </h4>
                                 <div class="star">
                                     <span class="fas fa-star"></span>
@@ -382,22 +533,22 @@
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                         <div class="catagory-product-card-2 shadow-style text-center">
                             <div class="icon">
-                                <a href="passion-fruit-coconut-p.html"><i class="far fa-heart"></i></a>
+                                <a href="triple choco-ck.html"><i class="far fa-heart"></i></a>
                             </div>
                             <div class="catagory-product-image">
-                                <img src="assets/img/food/passion.png" alt="product-img">
+                                <img src="assets/img/food/triple choco-ck.png" alt="product-img">
                             </div>
                             <div class="catagory-product-content">
                                 <div class="catagory-button">
-                                    <a href="passion-fruit-coconut-p.html" class="theme-btn-2"><i class="far fa-shopping-basket"></i>Place Order</a>
+                                    <a href="triple choco-ck.html" class="theme-btn-2"><i class="far fa-shopping-basket"></i>Place Order</a>
                                 </div>
                                 <div class="info-price d-flex align-items-center justify-content-center">
                                     <p>-5%</p>
                                     <h6>Starting</h6>
-                                    <span>AED 180</span>
+                                    <span>Depends on variety</span>
                                 </div>
                                 <h4>
-                                    <a href="passion-fruit-coconut-p.html">Passion fruit coconut cake</a>
+                                    <a href="triple choco-ck.html">Triple Chocolate Cookies</a>
                                 </h4>
                                 <div class="star">
                                     <span class="fas fa-star"></span>
@@ -412,22 +563,22 @@
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                         <div class="catagory-product-card-2 shadow-style text-center">
                             <div class="icon">
-                                <a href="Loaded-raspberry-p.html"><i class="far fa-heart"></i></a>
+                                <a href="Mix nut-ck.html"><i class="far fa-heart"></i></a>
                             </div>
                             <div class="catagory-product-image">
-                                <img src="assets/img/food/loaded raspberry.png" alt="product-img">
+                                <img src="assets/img/food/mix nut-ck.png" alt="product-img">
                             </div>
                             <div class="catagory-product-content">
                                 <div class="catagory-button">
-                                    <a href="Loaded-raspberry-p.html" class="theme-btn-2"><i class="far fa-shopping-basket"></i>Place Order</a>
+                                    <a href="Mix nut-ck.html" class="theme-btn-2"><i class="far fa-shopping-basket"></i>Place Order</a>
                                 </div>
                                 <div class="info-price d-flex align-items-center justify-content-center">
                                     <p>-5%</p>
                                     <h6>Starting</h6>
-                                    <span>AED 180</span>
+                                    <span>Depends on variety</span>
                                 </div>
                                 <h4>
-                                    <a href="Loaded-raspberry-p.html">Loaded Raspberry Mousse Cake</a>
+                                    <a href="Mix nut-ck.html">Mix Nut & Chocolate Cookies</a>
                                 </h4>
                                 <div class="star">
                                     <span class="fas fa-star"></span>
@@ -439,168 +590,6 @@
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="catagory-product-card-2 shadow-style text-center">
-                            <div class="icon">
-                                <a href="hawaiin-festival-p.html"><i class="far fa-heart"></i></a>
-                            </div>
-                            <div class="catagory-product-image">
-                                <img src="assets/img/food/hawaiin.png" alt="product-img">
-                            </div>
-                            <div class="catagory-product-content">
-                                <div class="catagory-button">
-                                    <a href="hawaiin-festival-p.html" class="theme-btn-2"><i class="far fa-shopping-basket"></i>Add To Cart</a>
-                                </div>
-                                <div class="info-price d-flex align-items-center justify-content-center">
-                                    <p>-5%</p>
-                                    <h6>$30.52</h6>
-                                    <span>$28.52</span>
-                                </div>
-                                <h4>
-                                    <a href="hawaiin-festival-p.html">Hawaiin Festival</a>
-                                </h4>
-                                <div class="star">
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star text-white"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="catagory-product-card-2 shadow-style text-center">
-                            <div class="icon">
-                                <a href="caramel-peanut-p.html"><i class="far fa-heart"></i></a>
-                            </div>
-                            <div class="catagory-product-image">
-                                <img src="assets/img/food/caramel.png" alt="product-img">
-                            </div>
-                            <div class="catagory-product-content">
-                                <div class="catagory-button">
-                                    <a href="caramel-peanut-p.html" class="theme-btn-2"><i class="far fa-shopping-basket"></i>Add To Cart</a>
-                                </div>
-                                <div class="info-price d-flex align-items-center justify-content-center">
-                                    <p>-5%</p>
-                                    <h6>$30.52</h6>
-                                    <span>$28.52</span>
-                                </div>
-                                <h4>
-                                    <a href="caramel-peanut-p.html">Caremel peanut butter cloud cake</a>
-                                </h4>
-                                <div class="star">
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star text-white"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="catagory-product-card-2 shadow-style text-center">
-                            <div class="icon">
-                                <a href="blueberry-lemon-p.html"><i class="far fa-heart"></i></a>
-                            </div>
-                            <div class="catagory-product-image">
-                                <img src="assets/img/food/blueberry.png" alt="product-img">
-                            </div>
-                            <div class="catagory-product-content">
-                                <div class="catagory-button">
-                                    <a href="blueberry-lemon-p.html" class="theme-btn-2"><i class="far fa-shopping-basket"></i>Add To Cart</a>
-                                </div>
-                                <div class="info-price d-flex align-items-center justify-content-center">
-                                    <p>-5%</p>
-                                    <h6>$30.52</h6>
-                                    <span>$28.52</span>
-                                </div>
-                                <h4>
-                                    <a href="blueberry-lemon-p.html">BlueBerry Lemon Cake</a>
-                                </h4>
-                                <div class="star">
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star text-white"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="catagory-product-card-2 shadow-style text-center">
-                            <div class="icon">
-                                <a href="premium-belgian-p.html"><i class="far fa-heart"></i></a>
-                            </div>
-                            <div class="catagory-product-image">
-                                <img src="assets/img/food/premium.png" alt="product-img">
-                            </div>
-                            <div class="catagory-product-content">
-                                <div class="catagory-button">
-                                    <a href="premium-belgian-p.html" class="theme-btn-2"><i class="far fa-shopping-basket"></i>Add To Cart</a>
-                                </div>
-                                <div class="info-price d-flex align-items-center justify-content-center">
-                                    <p>-5%</p>
-                                    <h6>$30.52</h6>
-                                    <span>$28.52</span>
-                                </div>
-                                <h4>
-                                    <a href="premium-belgian-p.html">Premium Belgian chocolate cake</a>
-                                </h4>
-                                <div class="star">
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star text-white"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="catagory-product-card-2 shadow-style text-center">
-                            <div class="icon">
-                                <a href="sweet-tiin-p.html"><i class="far fa-heart"></i></a>
-                            </div>
-                            <div class="catagory-product-image">
-                                <img src="assets/img/food/Sweet tiin.png" alt="product-img">
-                            </div>
-                            <div class="catagory-product-content">
-                                <div class="catagory-button">
-                                    <a href="sweet-tiin-p.html" class="theme-btn-2"><i class="far fa-shopping-basket"></i>Add To Cart</a>
-                                </div>
-                                <div class="info-price d-flex align-items-center justify-content-center">
-                                    <p>-5%</p>
-                                    <h6>$30.52</h6>
-                                    <span>$28.52</span>
-                                </div>
-                                <h4>
-                                    <a href="sweet-tiin-p.html">Sweet Tiin and honey cake</a>
-                                </h4>
-                                <div class="star">
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star text-white"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-                <div class="page-nav-wrap mt-5 text-center wow fadeInUp" data-wow-delay=".4s">
-                    <ul>
-                        <li><a class="page-numbers" href="#"><i class="fal fa-long-arrow-left"></i></a></li>
-                        <li><a class="page-numbers" href="#">1</a></li>
-                        <li><a class="page-numbers" href="#">2</a></li>
-                        <li><a class="page-numbers" href="#">3</a></li>
-                        <li><a class="page-numbers" href="#">4</a></li>
-                        <li><a class="page-numbers" href="#"><i class="fal fa-long-arrow-right"></i></a></li>
-                    </ul>
                 </div>
             </div>
         </section>
@@ -618,11 +607,11 @@
                     <div class="section-title mb-0">
                         <span class="theme-color-3 wow fadeInUp">All over UAE</span>
                         <h2 class="text-white wow fadeInUp" data-wow-delay=".3s">
-                            Adding Premium <br>
+                            Adding Premium<br>
                             <span class="theme-color-3">Ingredients</span> challage
                         </h2>
                     </div>
-                    <a href="shop-premium.html" class="theme-btn bg-white wow fadeInUp" data-wow-delay=".5s">
+                    <a href="shop-no-bake.html" class="theme-btn bg-white wow fadeInUp" data-wow-delay=".5s">
                     <span class="button-content-wrapper d-flex align-items-center">
                     <span class="button-icon"><i class="flaticon-delivery"></i></span>
                     <span class="button-text">order now</span>
@@ -763,7 +752,7 @@
                                     </h6>
                                     <h5>Hours:</h5>
                                     <h6>
-                                        8.00am – 11.30pm <br>
+                                        8.00 – 11.30pm <br>
                                         Monday to Saturday
                                     </h6>
                                 </div>
@@ -782,7 +771,7 @@
                                     </div>
                                     <div class="support-text">
                                         <h5>Order via call</h5>
-                                        <h3><a href="tel:+971 05 669 10 722">+971 05 669 10 722
+                                        <h3><a href="tel:+9710566910722">+971 05 669 10 722
                                         </a></h3>
                                     </div>
                                 </div>
@@ -804,13 +793,14 @@
                 </div>
             </div>
         </footer>
-        
+
         <!-- Back To Top Start -->
         <div class="scroll-up">
             <svg class="scroll-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
                 <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
             </svg>
         </div>
+        
         <!--<< All JS Plugins >>-->
         <script src="assets/js/jquery-3.7.1.min.js"></script>
         <!--<< Viewport Js >>-->
@@ -827,8 +817,6 @@
         <script src="assets/js/swiper-bundle.min.js"></script>
         <!--<< MeanMenu Js >>-->
         <script src="assets/js/jquery.meanmenu.min.js"></script>
-        <!--<< CountDown Js >>-->
-        <script src="assets/js/countdowncustom.js"></script>
         <!--<< Magnific Popup Js >>-->
         <script src="assets/js/jquery.magnific-popup.min.js"></script>
         <!--<< GSAP Animation Js >>-->
@@ -837,51 +825,35 @@
         <script src="assets/js/wow.min.js"></script>
         <!--<< Main.js >>-->
         <script src="assets/js/main.js"></script>
-        <!-- get suggestion script -->
+        <!-- script for make an order -->
         <script>
-            document.getElementById("get-suggestion-btn").addEventListener("click", function () {
-                // Get selected event type
-                let eventType = document.querySelector("#event-type-select .option.selected").getAttribute("data-value");
+            document.getElementById("place-order-btn").addEventListener("click", function () {
+                // Get selected crust
+                let crust = document.querySelector("#crust-select .option.selected").getAttribute("data-value");
             
-                // Get phone number
-                let phoneNumber = document.getElementById("number").value.trim();
+                // Get selected size
+                let size = document.querySelector("#size-select .option.selected").getAttribute("data-value");
             
-                // Get selected date
-                let eventDate = document.getElementById("calendar").value;
+                // Get quantity
+                let quantity = document.getElementById("qty2").value;
             
-                // Validate phone number
-                if (phoneNumber === "") {
-                    alert("Please enter your phone number.");
-                    return;
-                }
-            
-                // Validate date
-                if (eventDate === "") {
-                    alert("Please select a date.");
-                    return;
-                }
+                // Get current page URL
+                let pageUrl = window.location.href;
             
                 // Construct WhatsApp message
-                let message = `🎂 Event Suggestion Request 🎂
-
-                Hello, I would like to get a suggestion for my upcoming event. Here are the details:
-
-                🗓 *Event Type:* ${eventType}
-                📞 *Phone Number:* ${phoneNumber}
-                🎊 *Event Date:* ${eventDate}
-
-                Looking forward to your recommendations. Thank you! 🥰`;
+                let message = `Hello, I would like to place an order:
+                - Topping : ${crust}
+                - Size : ${size}
+                - Quantity : ${quantity}
+                - Order from : ${pageUrl}`;
             
                 // Encode message for URL
                 let encodedMessage = encodeURIComponent(message);
             
-                // WhatsApp number
-                let whatsappNumber = "+971566910722"; // Without spaces or dashes
-            
                 // Redirect to WhatsApp with pre-filled message
-                let whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+                let whatsappUrl = `https://wa.me/+971566910722?text=${encodedMessage}`;
                 window.open(whatsappUrl, "_blank");
-        });
-        </script>
+            });
+            </script>
     </body>
 </html>
