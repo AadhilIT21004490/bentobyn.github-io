@@ -121,7 +121,7 @@
                                         <i class="fal fa-envelope"></i>
                                     </div>
                                     <div class="offcanvas__contact-text">
-                                        <a href="tel:#"><span class="mailto:Bentobyn.uae@gmail.com">Bentobyn.uae@gmail.com</span></a>
+                                        <a href="tel:+013-003-003-9993"><span class="mailto:Bentobyn.uae@gmail.com">Bentobyn.uae@gmail.com</span></a>
                                     </div>
                                 </li>
                                 <li class="d-flex align-items-center">
@@ -137,7 +137,7 @@
                                         <i class="far fa-phone"></i>
                                     </div>
                                     <div class="offcanvas__contact-text">
-                                        <a href="tel:+971566910722">+971 56 691 0722</a>
+                                        <a href="tel:+11002345909">+971 56 691 0722</a>
                                     </div>
                                 </li>
                             </ul>
@@ -263,42 +263,203 @@
         <div class="breadcrumb-wrapper bg-cover" style="background-image: url('assets/img/banner/breadcrumb.jpg');">
             <div class="container">
                 <div class="page-heading center">
-                    <h1>No Bake Cheese Cake</h1>
+                    <h1 style="text-shadow:  -3px 4px 6px rgba(0, 0, 0, 0.89) ;">Loaded Blueberry No Bake Cheese Cake</h1>
                     <ul class="breadcrumb-items">
                         <li>
                             <a href="index.html">
-                            Home
+                            Home Page
                             </a>
                         </li>
                         <li>
                             <i class="far fa-chevron-right"></i>
                         </li>
                         <li>
-                            No Bake Cheese Cake
+                            Loaded Blueberry No Bake Cheese Cake
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
 
-        <!-- Food Catagory Section Start -->
-        <section class="food-category-section fix section-padding">
+        <!-- Product Details Section Start -->
+        <section class="product-details-section section-padding">
             <div class="container">
-                <div class="woocommerce-notices-wrapper">
-                    <div class="product-showing">
-                        <h5><a href="shop-no-bake.html"><span><img src="assets/img/filter.png" alt="img"></span> Filtering</a></h5>
-                        <h5>Showing <span>1–12</span> of 27 results</h5>
-                    </div>
-                    <div class="form-clt">
-                        <h6>Sort by: <a href="shop-no-bake.html"><i class="fal fa-sort-alt"></i></a></h6>
-                        
-                        <div class="icon">
-                            <a href="#"><i class="fas fa-th"></i></a>
+                <div class="product-details-wrapper style-2">
+                    <div class="row g-4">
+                        <div class="col-xl-4 col-lg-6">
+                            <div class="product-image-items">
+                                <div class="product-image">
+                                    <img src="assets/img/shop-food/loaded blueberry-nb.png" alt="img" class="w-100">
+                                </div>
+                            </div>
                         </div>
-                        <div class="icon-2">
-                            <a href="#"><i class="fas fa-list"></i></a>
+                        <div class="col-xl-5 col-lg-6">
+                            <div class="product-details-content">
+                                <div class="star pb-3">
+                                    <span>-5%</span>
+                                    <a href="#"> <i class="fas fa-star"></i></a>
+                                    <a href="#"><i class="fas fa-star"></i></a>
+                                    <a href="#"> <i class="fas fa-star"></i></a>
+                                    <a href="#"><i class="fas fa-star"></i></a>
+                                    <a href="#" class="color-bg"> <i class="fas fa-star"></i></a>
+                                    <a href="#" class="text-color">( 8 Reviews )</a>
+                                </div>
+                                <h3 class="pb-3">Loaded Blueberry No Bake Cheese Cake</h3>
+                                <div class="price-list d-flex align-items-center mb-4">
+                                    <span>[Price : Depends on variety]</span>
+                                </div>
+                                <div class="social-icon d-flex align-items-center">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-vimeo-v"></i></a>
+                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4">
+                            <div class="product-form-wrapper">
+                                <div class="delivery-time">Delivery: <span>Home Delivery</span></div>
+                                <form action="#" id="order-form" method="POST">
+                                    <div class="form-clt">
+                                        <label class="select-crust">Select Topping</label>
+                                        <div class="nice-select" id="crust-select">
+                                            <span class="current">Choose an option</span>
+                                            <ul class="list">
+                                                <li data-value="Original" class="option selected">Original</li>
+                                                <li data-value="Vanilla" class="option">Vanilla</li>
+                                                <li data-value="Chocolate" class="option">Chocolate</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="form-clt">
+                                        <label class="select-crust">Select Size</label>
+                                        <div class="nice-select" id="size-select">
+                                            <span class="current">Choose an option</span>
+                                            <ul class="list">
+                                                <li data-value="Small - 250g" class="option selected">Small - 250g</li>
+                                                <li data-value="Medium - 500g" class="option">Medium - 500g</li>
+                                                <li data-value="Large - 1Kg" class="option">Large - 1Kg</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="form-clt">
+                                        <label class="select-crust">Quantity</label>
+                                        <div class="quantity-basket">
+                                            <p class="qty">
+                                                <button type="button" class="qtyminus">&minus;</button>
+                                                <input type="number" name="qty" id="qty2" min="1" max="10" step="1" value="1">
+                                                <button type="button" class="qtyplus">&plus;</button>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="form-clt">
+                                        <button type="button" class="theme-btn" id="place-order-btn">
+                                            <i class="far fa-shopping-bag"></i>
+                                            <span class="button-text">Place Order</span>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
+                    <div class="single-tab">
+                        <ul class="nav mb-4">
+                            <li class="nav-item">
+                                <a href="#description" data-bs-toggle="tab" class="nav-link active">
+                                Description
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#additional" data-bs-toggle="tab" class="nav-link">
+                                Additional Information
+                                </a>
+                            </li>
+                            <!-- <li class="nav-item">
+                                <a href="#review" data-bs-toggle="tab" class="nav-link">
+                                reviews (4)
+                                </a>
+                            </li> -->
+                        </ul>
+                        <div class="tab-content">
+                            <div id="description" class="tab-pane fade show active">
+                                <div class="description-items">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="description-content">
+                                                <h3>Loaded Blueberry No Bake Cheese Cake</h3>
+                                                
+                                                <h3 class="mb-0 mt-5">More Details About our Product</h3>
+                                                <div class="description-list-items d-flex">
+                                                    <ul class="description-list">
+                                                        <li>
+                                                            <i class="fal fa-check"></i>
+                                                            <span>Freshly Baked Daily</span>
+                                                        </li>
+                                                        <li>
+                                                            <i class="fal fa-check"></i>
+                                                            <span>Wide Variety of Flavors</span>
+                                                        </li>
+                                                        <li>
+                                                            <i class="fal fa-check"></i>
+                                                            <span>Customized Cakes</span>
+                                                        </li>
+                                                        <li>
+                                                            <i class="fal fa-check"></i>
+                                                            <span>Premium Ingredients</span>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="description-list">
+                                                        <li>
+                                                            <i class="fal fa-check"></i>
+                                                            <span>Handcrafted Decorations</span>
+                                                        </li>
+                                                        <li>
+                                                            <i class="fal fa-check"></i>
+                                                            <span>Health-Conscious Choices</span>
+                                                        </li>
+                                                        <li>
+                                                            <i class="fal fa-check"></i>
+                                                            <span>Affordable Pricing</span>
+                                                        </li>
+                                                        <li>
+                                                            <i class="fal fa-check"></i>
+                                                            <span>Artisanal Touch</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="additional" class="tab-pane fade">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered">
+                                        <tbody>
+                                            <tr>
+                                                <td>Weight</td>
+                                                <td>500g</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Dimensions</td>
+                                                <td>15 × 15 cm (Mutable)</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Food Catagory Section Start -->
+        <section class="food-category-section fix section-padding section-bg">
+            <div class="container">
+                <div class="section-title text-center">
+                    <span class="wow fadeInUp">Yummy, Every bite taste</span>
+                    <h2 class="wow fadeInUp" data-wow-delay=".3s">RELATED PRODUCTS</h2>
                 </div>
                 <div class="row">
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
@@ -421,199 +582,6 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="catagory-product-card-2 shadow-style text-center">
-                            <div class="icon">
-                                <a href="oreo-nb.html"><i class="far fa-heart"></i></a>
-                            </div>
-                            <div class="catagory-product-image">
-                                <img src="assets/img/food/oreo-nb.png" alt="product-img">
-                            </div>
-                            <div class="catagory-product-content">
-                                <div class="catagory-button">
-                                    <a href="oreo-nb.html" class="theme-btn-2"><i class="far fa-shopping-basket"></i>Place Order</a>
-                                </div>
-                                <div class="info-price d-flex align-items-center justify-content-center">
-                                    <p>-5%</p>
-                                    <h6>Starting</h6>
-                                    <span>Depends on variety</span>
-                                </div>
-                                <h4>
-                                    <a href="oreo-nb.html">Oreo no bake cheese cake</a>
-                                </h4>
-                                <div class="star">
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star text-white"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="catagory-product-card-2 shadow-style text-center">
-                            <div class="icon">
-                                <a href="nutella-nb.html"><i class="far fa-heart"></i></a>
-                            </div>
-                            <div class="catagory-product-image">
-                                <img src="assets/img/food/nutella-nb.png" alt="product-img">
-                            </div>
-                            <div class="catagory-product-content">
-                                <div class="catagory-button">
-                                    <a href="nutella-nb.html" class="theme-btn-2"><i class="far fa-shopping-basket"></i>Place Order</a>
-                                </div>
-                                <div class="info-price d-flex align-items-center justify-content-center">
-                                    <p>-5%</p>
-                                    <h6>Starting</h6>
-                                    <span>Depends on variety</span>
-                                </div>
-                                <h4>
-                                    <a href="nutella-nb.html">No bake Nutella cheese cake</a>
-                                </h4>
-                                <div class="star">
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star text-white"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="catagory-product-card-2 shadow-style text-center">
-                            <div class="icon">
-                                <a href="biscoff-nb.html"><i class="far fa-heart"></i></a>
-                            </div>
-                            <div class="catagory-product-image">
-                                <img src="assets/img/food/biscoff-nb.png" alt="product-img">
-                            </div>
-                            <div class="catagory-product-content">
-                                <div class="catagory-button">
-                                    <a href="biscoff-nb.html" class="theme-btn-2"><i class="far fa-shopping-basket"></i>Place Order</a>
-                                </div>
-                                <div class="info-price d-flex align-items-center justify-content-center">
-                                    <p>-5%</p>
-                                    <h6>Starting</h6>
-                                    <span>Depends on variety</span>
-                                </div>
-                                <h4>
-                                    <a href="biscoff-nb.html">No bake Biscoff lotus cheese cake</a>
-                                </h4>
-                                <div class="star">
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star text-white"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="catagory-product-card-2 shadow-style text-center">
-                            <div class="icon">
-                                <a href="pistachio-nb.html"><i class="far fa-heart"></i></a>
-                            </div>
-                            <div class="catagory-product-image">
-                                <img src="assets/img/food/pistachio-nb.png" alt="product-img">
-                            </div>
-                            <div class="catagory-product-content">
-                                <div class="catagory-button">
-                                    <a href="pistachio-nb.html" class="theme-btn-2"><i class="far fa-shopping-basket"></i>Place Order</a>
-                                </div>
-                                <div class="info-price d-flex align-items-center justify-content-center">
-                                    <p>-5%</p>
-                                    <h6>Starting</h6>
-                                    <span>Depends on variety</span>
-                                </div>
-                                <h4>
-                                    <a href="pistachio-nb.html">Pistachio white chocolate No bake cheese cake</a>
-                                </h4>
-                                <div class="star">
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star text-white"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="catagory-product-card-2 shadow-style text-center">
-                            <div class="icon">
-                                <a href="mix berry-nb.html"><i class="far fa-heart"></i></a>
-                            </div>
-                            <div class="catagory-product-image">
-                                <img src="assets/img/food/mix berry-nb.png" alt="product-img">
-                            </div>
-                            <div class="catagory-product-content">
-                                <div class="catagory-button">
-                                    <a href="mix berry-nb.html" class="theme-btn-2"><i class="far fa-shopping-basket"></i>Place Order</a>
-                                </div>
-                                <div class="info-price d-flex align-items-center justify-content-center">
-                                    <p>-5%</p>
-                                    <h6>Starting</h6>
-                                    <span>Depends on variety</span>
-                                </div>
-                                <h4>
-                                    <a href="mix berry-nb.html">Mix berry no bake cheese cake</a>
-                                </h4>
-                                <div class="star">
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star text-white"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="catagory-product-card-2 shadow-style text-center">
-                            <div class="icon">
-                                <a href="Starwberry-nb.html"><i class="far fa-heart"></i></a>
-                            </div>
-                            <div class="catagory-product-image">
-                                <img src="assets/img/food/strawberry-nb.png" alt="product-img">
-                            </div>
-                            <div class="catagory-product-content">
-                                <div class="catagory-button">
-                                    <a href="Starwberry-nb.html" class="theme-btn-2"><i class="far fa-shopping-basket"></i>Place Order</a>
-                                </div>
-                                <div class="info-price d-flex align-items-center justify-content-center">
-                                    <p>-5%</p>
-                                    <h6>Starting</h6>
-                                    <span>Depends on variety</span>
-                                </div>
-                                <h4>
-                                    <a href="Starwberry-nb.html">No bake strawberry cheese cake</a>
-                                </h4>
-                                <div class="star">
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star"></span>
-                                    <span class="fas fa-star text-white"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    
-                    
-                </div>
-                <div class="page-nav-wrap mt-5 text-center wow fadeInUp" data-wow-delay=".4s">
-                    <ul>
-                        <li><a class="page-numbers" href="#"><i class="fal fa-long-arrow-left"></i></a></li>
-                        <li><a class="page-numbers" href="#">1</a></li>
-                        <li><a class="page-numbers" href="#">2</a></li>
-                        <li><a class="page-numbers" href="#">3</a></li>
-                        <li><a class="page-numbers" href="#">4</a></li>
-                        <li><a class="page-numbers" href="#"><i class="fal fa-long-arrow-right"></i></a></li>
-                    </ul>
                 </div>
             </div>
         </section>
@@ -629,10 +597,10 @@
             <div class="container">
                 <div class="main-cta-banner-wrapper-2 d-flex align-items-center justify-content-between">
                     <div class="section-title mb-0">
-                        <span class="theme-color-3 wow fadeInUp">crispy, every bite taste</span>
+                        <span class="theme-color-3 wow fadeInUp">All over UAE</span>
                         <h2 class="text-white wow fadeInUp" data-wow-delay=".3s">
-                            30 minutes fast <br>
-                            <span class="theme-color-3">delivery</span> challage
+                            Adding Premium<br>
+                            <span class="theme-color-3">Ingredients</span> challage
                         </h2>
                     </div>
                     <a href="shop-no-bake.html" class="theme-btn bg-white wow fadeInUp" data-wow-delay=".5s">
@@ -776,7 +744,7 @@
                                     </h6>
                                     <h5>Hours:</h5>
                                     <h6>
-                                        8.00am – 11.30pm <br>
+                                        8.00 – 11.30pm <br>
                                         Monday to Saturday
                                     </h6>
                                 </div>
@@ -849,5 +817,35 @@
         <script src="assets/js/wow.min.js"></script>
         <!--<< Main.js >>-->
         <script src="assets/js/main.js"></script>
+        <!-- script for make an order -->
+        <script>
+            document.getElementById("place-order-btn").addEventListener("click", function () {
+                // Get selected crust
+                let crust = document.querySelector("#crust-select .option.selected").getAttribute("data-value");
+            
+                // Get selected size
+                let size = document.querySelector("#size-select .option.selected").getAttribute("data-value");
+            
+                // Get quantity
+                let quantity = document.getElementById("qty2").value;
+            
+                // Get current page URL
+                let pageUrl = window.location.href;
+            
+                // Construct WhatsApp message
+                let message = `Hello, I would like to place an order:
+                - Topping : ${crust}
+                - Size : ${size}
+                - Quantity : ${quantity}
+                - Order from : ${pageUrl}`;
+            
+                // Encode message for URL
+                let encodedMessage = encodeURIComponent(message);
+            
+                // Redirect to WhatsApp with pre-filled message
+                let whatsappUrl = `https://wa.me/+971566910722?text=${encodedMessage}`;
+                window.open(whatsappUrl, "_blank");
+            });
+            </script>
     </body>
 </html>
